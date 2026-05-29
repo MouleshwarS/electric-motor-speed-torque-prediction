@@ -1,4 +1,4 @@
-# Electric_Motor_Speed_Torque_Prediction
+# Electric Motor Speed Torque Prediction
 Designed ML models with optimal hyperparameters to predict the speed/torque of an electric motor using the latter's operational parameters as features.
 
 ## Dataset Description
@@ -14,15 +14,15 @@ The dataset contains continuous-values attributes, which include the operational
 <tbody>
   <tr>
     <td align="center">Number of samples</td>
-    <td align="center">13,30,816</td>
+    <td align="center"><code>13,30,816</code></td>
   </tr>
   <tr>
     <td align="center">Number of attributes</td>
-    <td align="center">13</td>
+    <td align="center"><code>13</code></td>
   </tr>
   <tr>
     <td align="center">Input features</td>
-    <td align="center">11 (voltage and current components, temperature etc.)</td>
+    <td align="center"><code>11</code> (voltage and current components, temperature etc.)</td>
   </tr>
   <tr>
     <td align="center">Target variable</td>
@@ -50,13 +50,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">218977.652042</td>
-      <td align="center">0.936707</td>
+      <td align="center"><code>218977.652042</code></td>
+      <td align="center"><code>0.936707</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">219977.086242</td>
-      <td align="center">0.936288</td>
+      <td align="center"><code>219977.086242</code></td>
+      <td align="center"><code>0.936288</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -64,16 +64,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">20.365407</td>
-      <td align="center">0.996574</td>
+      <td align="center"><code>20.365407</code></td>
+      <td align="center"><code>0.996574</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">20.259357</td>
-      <td align="center">0.996606</td>
+      <td align="center"><code>20.259357</code></td>
+      <td align="center"><code>0.996606</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Elastic Net
 * It is a modifed version of the standard linear regression model, and employs regularization using either the L1 or L2 norm on the former to prevent overfitting.
@@ -90,13 +90,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">220286.614834</td>
-      <td align="center">0.936329</td>
+      <td align="center"><code>220286.614834</code></td>
+      <td align="center"><code>0.936329</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">221121.096788</td>
-      <td align="center">0.935957</td>
+      <td align="center"><code>221121.096788</code></td>
+      <td align="center"><code>0.935957</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -104,16 +104,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">20.373511</td>
-      <td align="center">0.996573</td>
+      <td align="center"><code>20.373511</code></td>
+      <td align="center"><code>0.996573</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">20.264708</td>
-      <td align="center">0.996606</td>
+      <td align="center"><code>20.264708</code></td>
+      <td align="center"><code>0.996606</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Linear SVR (Support Vector Regression)
 * In general, the SVR model tries to find a function that best predicts the continuous output value for given input value(s), and can use both linear and non-linear kernels.
@@ -131,13 +131,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">312431.267948</td>
-      <td align="center">0.909695</td>
+      <td align="center"><code>312431.267948</code></td>
+      <td align="center"><code>0.909695</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">314449.427085</td>
-      <td align="center">0.908926</td>
+      <td align="center"><code>314449.427085</code></td>
+      <td align="center"><code>0.908926</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -145,16 +145,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">20.373511</td>
-      <td align="center">0.996573</td>
+      <td align="center"><code>20.373511</code></td>
+      <td align="center"><code>0.996573</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">20.264708</td>
-      <td align="center">0.996606</td>
+      <td align="center"><code>20.264708</code></td>
+      <td align="center"><code>0.996606</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Decision Tree Regressor
 * It observes the features of an object and trains a model in the structure of a tree to make predictions for data in the future.
@@ -171,13 +171,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">131.68398</td>
-      <td align="center">0.999962</td>
+      <td align="center"><code>131.68398</code></td>
+      <td align="center"><code>0.999962</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">825.982098</td>
-      <td align="center">0.999761</td>
+      <td align="center"><code>825.982098</code></td>
+      <td align="center"><code>0.999761</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -185,16 +185,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">0.142327</td>
-      <td align="center">0.999976</td>
+      <td align="center"><code>0.142327</code></td>
+      <td align="center"><code>0.999976</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">0.867584</td>
-      <td align="center">0.999855</td>
+      <td align="center"><code>0.867584</code></td>
+      <td align="center"><code>0.999855</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Bayesian Ridge Regression
 * It is a modified version of the ridge regression model, and employs prior belief or knowledge about the data to create more accurate predictions.
@@ -212,13 +212,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">218977.652202</td>
-      <td align="center">0.936707</td>
+      <td align="center"><code>218977.652202</code></td>
+      <td align="center"><code>0.936707</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">219977.003862</td>
-      <td align="center">0.936288</td>
+      <td align="center"><code>219977.003862</code></td>
+      <td align="center"><code>0.936288</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -226,16 +226,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">20.365407</td>
-      <td align="center">0.996574</td>
+      <td align="center"><code>20.365407</code></td>
+      <td align="center"><code>0.996574</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">20.259357</td>
-      <td align="center">0.996606</td>
+      <td align="center"><code>20.259357</code></td>
+      <td align="center"><code>0.996606</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Stochastic Gradient Descent (SGD) Regressor
 * It changes the model's parameters using a single randomly selected data point (or a small batch of data) at each iteration.
@@ -252,13 +252,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">219356.695489</td>
-      <td align="center">0.936598</td>
+      <td align="center"><code>219356.695489</code></td>
+      <td align="center"><code>0.936598</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">220232.669834</td>
-      <td align="center">0.936214</td>
+      <td align="center"><code>220232.669834</code></td>
+      <td align="center"><code>0.936214</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -266,16 +266,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">20.36786</td>
-      <td align="center">0.996574</td>
+      <td align="center"><code>20.36786</code></td>
+      <td align="center"><code>0.996574</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">20.26058</td>
-      <td align="center">0.996606</td>
+      <td align="center"><code>20.26058</code></td>
+      <td align="center"><code>0.996606</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Neural Network
 * A neural network consist of interconnected nodes or neurons, which process and learn patterns from the data by automatically extracting significant or important features from the latter.
@@ -294,13 +294,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">725.778194</td>
-      <td align="center">0.99979</td>
+      <td align="center"><code>725.778194</code></td>
+      <td align="center"><code>0.99979</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">808.079829</td>
-      <td align="center">0.999766</td>
+      <td align="center"><code>808.079829</code></td>
+      <td align="center"><code>0.999766</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -308,16 +308,16 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">1.195187</td>
-      <td align="center">0.999799</td>
+      <td align="center"><code>1.195187</code></td>
+      <td align="center"><code>0.999799</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">1.165287</td>
-      <td align="center">0.999805</td>
+      <td align="center"><code>1.165287</code></td>
+      <td align="center"><code>0.999805</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
 
 ## Gradient Boosting Regressor
 * It combines several weak learners into strong learners, in which each new model is trained to minimize the loss function such as mean squared error (regression) or cross-entropy (classification) of the previous model.
@@ -334,13 +334,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Speed Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">435.520003</td>
-      <td align="center">0.999874</td>
+      <td align="center"><code>435.520003</code></td>
+      <td align="center"><code>0.999874</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">612.659493</td>
-      <td align="center">0.999823</td>
+      <td align="center"><code>612.659493</code></td>
+      <td align="center"><code>0.999823</code></td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -348,13 +348,13 @@ For all the models (except linear regression and neural network), the optimal hy
     <tr>
       <td align="center" rowspan="2"><strong>Torque Prediction</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">0.479665</td>
-      <td align="center">0.999919</td>
+      <td align="center"><code>0.479665</code></td>
+      <td align="center"><code>0.999919</code></td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">0.555813</td>
-      <td align="center">0.999907</td>
+      <td align="center"><code>0.555813</code></td>
+      <td align="center"><code>0.999907</code></td>
     </tr>
   </tbody>
-  </table>
+</table>
